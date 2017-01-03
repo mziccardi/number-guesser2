@@ -41,7 +41,7 @@ export default class Application extends Component {
 
   changeMin (e){
     let newMin = e.target.value
-    this.setState = ({min: parseInt(e.target.value) })
+    this.setState = ({min: newMin })
   }
   changeMax (e){
     let newMax = e.target.value

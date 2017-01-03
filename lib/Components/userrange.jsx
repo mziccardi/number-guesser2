@@ -14,6 +14,7 @@ export default class UserRange extends Component{
         <input
           type ='number'
           placeholder='max'
+          onChange = {(e)=> this.props.changeMax(e)}
           />
       </div>
     )
